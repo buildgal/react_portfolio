@@ -1,0 +1,22 @@
+body{
+    background-color:#058F96;
+}
+
+.img-responsive{
+    height: 200px;
+    width: 140px;
+}
+
+.contactInfo{
+    padding: 3%;
+    color:white;
+    margin: center;
+}
+
+.cards{
+    padding: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right:5%;
+   }
+

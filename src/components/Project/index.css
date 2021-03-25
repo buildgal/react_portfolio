@@ -1,0 +1,17 @@
+.card{
+    padding: 2%;
+}
+
+.cardInfo{
+    margin-bottom: 2%;
+}
+
+.projectImg{
+    float: left;
+}
+
+.Img{
+    width: 170px;
+    height: 180px;
+    display: inline;
+}
