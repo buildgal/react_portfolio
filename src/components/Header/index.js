@@ -5,17 +5,17 @@ function Header(props){
  return(
     <div className="header">
         <Nav
-  activeKey="/home"
+  activeKey="Home"
   // onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
 >
   <Nav.Item>
-    <Nav.Link href="/home">Home</Nav.Link>
+    <Nav.Link href="Home">Home</Nav.Link>
   </Nav.Item>
   <Nav.Item>
     <Nav.Link href="Projects">Projects</Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link href="./AboutMe">About Me</Nav.Link>
+    <Nav.Link href="AboutMe">About Me</Nav.Link>
   </Nav.Item>
   <Nav.Item>
     <Nav.Link href="Contact">Contact</Nav.Link>

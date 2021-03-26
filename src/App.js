@@ -18,16 +18,16 @@ function App() {
       <Router>
       <Switch>
       <Header>
-      <Route exact path={["/","/Home"]} component={Home} />
-      <Home/>
+     
+      <Route exact path={["/","/Home"]}/>
+      <Route exact path="/Home" component={Home} />
         <Route exact path="/Contact" component={Contact} />
         <Route exact path="/AboutMe" component={AboutMe} />
         <Route exact path="/Projects" component={Projects} />
-      </Header>
+        </Header>
       </Switch>
+      
       </Router>
-
-
       <Footer>
       </Footer>
   
