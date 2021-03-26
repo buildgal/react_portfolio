@@ -19,11 +19,21 @@ function App() {
       <Switch>
       <Header>
      
-      <Route exact path={["/","/Home"]}/>
-      <Route exact path="/Home" component={Home} />
-        <Route exact path="/Contact" component={Contact} />
-        <Route exact path="/AboutMe" component={AboutMe} />
-        <Route exact path="/Projects" component={Projects} />
+      <Route exact path="/">
+        <Home/>
+        </Route>
+      <Route exact path="/Home">
+        <Home/>
+        </Route>
+      <Route exact path="/Contact">
+        <Contact/>
+        </Route>
+      <Route exact path="/AboutMe">
+        <AboutMe/>
+        </Route>
+      <Route exact path="/Projects">
+        <Projects/>
+        </Route>
         </Header>
       </Switch>
       
