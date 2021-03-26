@@ -17,8 +17,7 @@ function App() {
     <div className="App">
       <Router>
       <Header>
-      <Route exact path={"/"} component={Home} />
-      <Route exact path={"/Home"} component={Home} />
+      <Route exact path={["/","/Home"]} component={Home} />
         <Route exact path="/Contact" component={Contact} />
         <Route exact path="/AboutMe" component={AboutMe} />
         <Route exact path="/Projects" component={Projects} />
