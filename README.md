@@ -17,6 +17,9 @@ This page I use to highligh my technical skills. I breakdown the work I have don
 On this page I provide the user a form to enter a message. Currently the submit button does not work, but will soon. Again I am leveraging Bootstrap to use a jumbtron. I also add an email icon for style.
 
 
+## Preview
+![image](src/images/homeImg.PNG)
+
 
 ## Live Links 
-Git Pages: [https://buildgal.github.io/home]
+Git Pages: [https://buildgal.github.io/]

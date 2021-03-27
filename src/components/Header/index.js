@@ -10,17 +10,19 @@ function Header(props){
   // onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
 >
   <Nav.Item>
-    <Link to="/AboutMe">ABOUT ME</Link>
-    <Nav.Link href="/Home">Home</Nav.Link>
+    <Nav.Link><Link to="/Home">Home</Link></Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link href="Projects">Projects</Nav.Link>
+    <Nav.Link>
+      <Link to="Projects">Projects</Link></Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link href="AboutMe">About Me</Nav.Link>
+    <Nav.Link >
+      <Link to="/AboutMe">About Me</Link></Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link href="Contact">Contact</Nav.Link>
+    <Nav.Link>
+      <Link to= "/Contact">Contact</Link></Nav.Link>
   </Nav.Item>
 
 </Nav>
