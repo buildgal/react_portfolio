@@ -1,5 +1,6 @@
 import {Nav} from "react-bootstrap";
 import "./index.css";
+import {Link} from "react-router-dom";
 
 function Header(props){
  return(
@@ -9,7 +10,8 @@ function Header(props){
   // onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
 >
   <Nav.Item>
-    <Nav.Link href="Home">Home</Nav.Link>
+    <Link to="/AboutMe">ABOUT ME</Link>
+    <Nav.Link href="/Home">Home</Nav.Link>
   </Nav.Item>
   <Nav.Item>
     <Nav.Link href="Projects">Projects</Nav.Link>
